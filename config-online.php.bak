@@ -1,0 +1,25 @@
+<?php
+
+//initialize MySQL Connection Variables
+
+DEFINE('DB_USER','bd411671a3e29b');
+DEFINE('DB_PASSWORD','f7d4db64 ');
+DEFINE('DB_HOST', 'us-cdbr-gcp-east-01.cleardb.net	');
+DEFINE('DB_NAME', 'ultima');
+
+//DEFINE('DB_HOST', '192.168.56.103');
+
+$host="localhost";
+$username="root";
+$password="13-01104";
+$dbname="ultima";
+
+//establish MySQL Connection
+
+$dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
+OR die ('Could not connect to MySQL: ' . mysqli_connect_error());
+
+
+
+
+?>

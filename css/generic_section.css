@@ -1,0 +1,18 @@
+div.container a{
+	display: block;
+	font-size: 1em;
+	color: black;
+	padding: 3%;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 1%;
+}
+
+div.container a:hover{
+	color: red;
+}
+
+
+div.container a:active{
+	color: rgb(50,0,0);
+}

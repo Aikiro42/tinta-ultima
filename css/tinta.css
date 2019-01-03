@@ -1,0 +1,61 @@
+div#tinta-container h1{
+	font-family: 'Cambria';
+
+	text-align: center;
+	font-weight: normal;
+	width: 60%;
+	margin: 5% auto;
+}
+
+div#tinta-container h2{
+	text-align: center;
+	font-family: 'Novitha';
+	font-size: 4em;
+	font-weight: normal;
+}
+
+
+div#tinta-container ul{
+	list-style: none;
+	text-align: center;
+}
+
+
+div#tinta-container ul li{
+	display: block;
+	font-family: Century Gothic;
+	font-size: 1.5em;
+	margin: 2%;
+}
+
+
+div#tinta-container ul li span{
+	display: block;
+	font-size: 0.8em;
+}
+
+
+a#dashboard-link{
+	display: block;
+	text-align: center;
+	font-family: 'Bahnschrift', sans-serif;
+	margin: 5% auto;
+	margin-top: 10%;
+	font-size: 2em;
+	color: white;
+	background: rgb(100,100,100);
+	width: 50%;
+	padding: 3%;
+	border-radius: 15px;
+	transition: var(--transition);
+	cursor: pointer;
+}
+
+a#dashboard-link:hover{
+	background: white;
+	color: black;
+}
+
+a#dashboard-link:active{
+	color: rgb(0,150,255);
+}

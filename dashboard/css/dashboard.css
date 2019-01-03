@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bahnschrift', 'Segoe UI', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	color: white;
+	background: gray;
+	padding: 1%;
+}
+
+div#tools-container{
+	border: 1px solid rgb(200,200,200);
+	margin: 2.5% auto;
+	padding: 2.5%;
+	width: 75%;
+	border-radius: 15px;
+}
+
+div#tools-container div.tool{
+	background: rgb(150,150,150);
+	border-radius: 15px;
+	margin: 1%;
+}
+
+
+div#tools-container div.tool h1.tool-title{
+	color: white;
+	padding: 2%;
+	border-radius: 15px;
+}
+
+div#tools-container div.tool h1.tool-title:hover{
+	background: rgb(175,175,175);
+	cursor: pointer;
+}
+
+div#tools-container div.tool h1.tool-title:active{
+	background: rgb(125,125,125);
+	cursor: pointer;
+}
+
+div#tools-container div.tool div.utility-container{
+	display: none;
+	margin: 1%;
+	background: white;
+	border-radius: 15px;
+}
+
+div#tools-container div.tool div.utility-container div.sub-container{
+	color: black;
+}
+
+
+

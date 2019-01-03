@@ -1,0 +1,27 @@
+div.view-article-container{
+	border: 1px solid black;
+	margin: 1%;
+	padding: 2%;
+}
+
+div.view-article-container *{
+	font-family: 'Times New Roman', serif;
+}
+
+div.view-article-container div.author-credentials{
+	margin: 2%;
+	width: 35%;
+}
+
+div.view-article-container article.article-content p{
+	margin: 3%;
+}
+
+
+div.view-article-container span.article-backinfo{
+	margin: 3%;
+	display: block;
+	font-size: .75em;
+	font-style: italic;
+}
+

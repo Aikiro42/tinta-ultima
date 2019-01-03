@@ -1,0 +1,71 @@
+:root{
+	
+	--light-gray: rgb(200,200,200);
+	--gray: rgb(50,50,50);
+	
+	--red: rgb(150,0,0);
+	--orange: rgb(225,100,0);
+	--yellow: rgb(255,200,0);
+	
+	--balita-label: rgb(232,107,51);
+	--balita-label-color: black;
+	
+	--opinyon-label: rgb(224, 209, 27);
+	--opinyon-label-color: black;
+
+	--lathalain-label: rgb(129,211,68);
+	--lathalain-label-color: black;
+
+	--isports-label: rgb(0,174,200);
+	--isports-label-color: black;
+	
+	--linear-gradient-1: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0.25));
+	--linear-gradient-2: linear-gradient(to top, white, rgba(255,255,255,0));
+	
+	--border: 1px solid rgb(200,200,200);
+	--border-2: 1px solid rgb(150,150,150);
+	
+	--transition: background 0.1s, color 0.1s;
+	
+	--nav-link-color-hover: white;
+	--nav-link-color-active: white;
+	
+	--home-link-hover: rgb(150,35,38);
+	--home-link-active: rgb(125,10,13);
+	
+	--balita-link-hover: rgb(243,115,56);
+	--balita-link-active: rgb(218,90,31);
+	
+	--opinyon-link-hover: rgb(253,182,49);
+	--opinyon-link-active: rgb(228,157,24);
+	
+	--lathalain-link-hover: yellowgreen;
+	--lathalain-link-active: yellowgreen;
+	
+	--isports-link-hover: rgb(1,120,120);	
+	--isports-link-active: rgb(1,120,120);
+	
+	--tinta-link-hover: rgb(128,22,56);
+	--tinta-link-active: rgb(103,0,31);
+	
+	
+	--featured-article-background: var(--linear-gradient-1);
+	--featured-article-color: white;
+	--featured-article-hover: rgba(0,0,0,0.75);
+	--featured-article-active: black;
+	
+	--article-box-background: var(--gray);
+	--article-box-color: white;
+	--article-box-hover: rgb(150,35,38);
+	--article-box-active: rgb(125,10,13);
+	
+	--article-item-background: white;
+	--article-item-hover: rgb(225,225,225);
+	--article-item-active: rgb(200,200,200);
+}
+
+
+@font-face{
+	font-family: "Novitha";
+	src: url('../fonts/novitha.ttf');
+}

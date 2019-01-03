@@ -1,0 +1,91 @@
+div#article-container{
+	font-family: 'Segoe UI', sans-serif;
+}
+
+div#article-container div#wrapper{
+	width: 80%;
+	margin: auto;
+}
+
+
+div#article-container div#wrapper h1#article-header{
+	display: block;
+	margin: 7.5% 0;
+}
+
+
+div#article-container div#wrapper img#article-image{
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: 2%;
+}
+
+div#article-container div#wrapper div#author-credentials{
+	margin-bottom: 7.5;
+	width: 50%;
+}
+
+
+div#article-container div#wrapper div#author-credentials span{
+	display: block;
+	padding: 3%;
+}
+
+div#article-container div#wrapper div#author-credentials span#name{
+	font-size: 1.125em;
+}
+
+div#article-container div#wrapper article#article-content p{
+	margin: 5% 0;
+	text-align: justify;
+}
+
+div#article-container div#wrapper a#back-to-top{
+	display: block;
+	margin-bottom: 3%;
+}
+
+@media screen and (min-width: 640px){
+	
+	div#article-container{
+		font-family: 'Segoe UI', sans-serif;
+	}
+	
+	div#article-container div#wrapper h1#article-header{
+		font-size: 3em;
+	}
+	
+	div#article-container div#wrapper img#article-image{
+		width: 50%;
+		margin: 3%;
+		margin-top: 0;
+	}
+
+	div#article-container div#wrapper div#author-credentials{
+		width: initial;
+	}
+	
+	div#article-container div#wrapper div#author-credentials span{
+		border: none;
+		padding: 0;
+	}
+	
+	div#article-container div#wrapper div#author-credentials span#name{
+		border:none;
+	}
+
+	
+	div#article-container div#wrapper article#article-content p{
+		margin: 5% 0;
+		text-align: justify;
+	}
+
+	
+	div#article-container div#wrapper{
+		width: 60%;
+	}
+	div#article-container div#wrapper article#article-content p{
+		margin: 2% 0;
+	}
+}

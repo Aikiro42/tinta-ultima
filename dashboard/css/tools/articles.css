@@ -1,0 +1,53 @@
+
+div.sub-container div.article-list {
+	padding: 1%;
+}
+
+div.sub-container div.article-list div.article-item{
+	border: 1px solid rgb(75,75,75);
+	padding: 1%;
+	margin: 1%;
+	border-radius: 15px;
+}
+
+div.sub-container div.article-list div.article-item img.util-button{
+	object-fit: cover;
+	display: inline-block;
+	height: 30px;
+	margin-left: 3%;
+	float: right;
+	cursor: pointer;
+}
+
+div.sub-container div.article-list div.article-item h1.article-title{
+	display: inline-block;
+	font-size: 30px;
+	line-height: 30px;
+	width: 75%;
+}
+
+div.sub-container div.article-list div.article-item div.edit-article-container, div.view-article-container{
+	display: none;
+}
+
+div.sub-container div.article-list span#add-article-button{
+	display: block;
+	text-align: center;
+	font-size: 2em;
+	color: rgb(0,150,255);
+	border: 3px solid rgb(0,150,255);
+	margin: 1%;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+div.sub-container div.article-list span#add-article-button:hover{
+	background: rgb(0,150,255);
+	color: white;
+}
+
+div.sub-container div.article-list span#add-article-button:active{
+	background: rgb(0,100,205);
+	border-color: rgb(0,100,205);
+}
+

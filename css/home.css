@@ -1,0 +1,221 @@
+div#home-container{
+	top: 100%;
+	border-top: 1px solid black;
+}
+
+div#home-container span.label{
+	display: inline-block;
+	padding: 1%;
+	font-size: 0.75em;
+	font-weight: bold;
+	margin: 3%;
+	margin-left: 0;
+}
+
+div#home-container span.label.featured{
+	float: none;
+}
+
+div#home-container h1.box-label{
+	padding-left: 3%;
+}
+
+
+div#home-container span.balita, h1.box-label.balita{
+	background: var(--balita-label);
+	color: var(--balita-label-color);
+}
+
+div#home-container span.opinyon, h1.box-label.opinyon{
+	background: var(--opinyon-label);
+	color: var(--opinyon-label-color);
+}
+
+div#home-container span.lathalain, h1.box-label.lathalain{
+	background: var(--lathalain-label);
+	color: var(--lathalain-label-color);
+}
+
+div#home-container span.isports, h1.box-label.isports{
+	background: var(--isports-label);
+	color: var(--isports-label-color);
+}
+
+
+div#home-featured-image-container img#featured-image{
+	position: fixed;
+	z-index: -10;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	min-width: 640px;
+	object-fit: cover;
+	object-position: 50% 0;
+}
+
+div#home-container div#featured-article{
+	background: var(--featured-article-background);
+	color: var(--featured-article-color);
+	padding: 3%;
+	transform: translateY(-100%);
+	border-bottom: var(--border);
+	cursor: pointer;
+}
+
+div#home-container div#featured-article:hover{
+	background: var(--featured-article-hover);
+}
+
+div#home-container div#featured-article:active{
+	background: var(--featured-article-active);
+}
+
+
+div#home-container div#featured-article span#featured-article-cred{
+	display: block;
+	font-style: italic;
+	font-size: 0.75em;
+	padding: 1% 0;
+}
+
+
+div#home-container div.article-box{
+	width: 100%;
+	height: 10%;
+	background: var(--article-box-background);
+	color: var(--article-box-color);
+	border-bottom: var(--border);
+	cursor: pointer;
+	transition: var(--transition);
+}
+
+div#home-container div.article-box:hover{
+	background: var(--article-box-hover);
+}
+
+div#home-container div.article-box:active{
+	background: var(--article-box-active);
+}
+
+
+div#home-container div.article-box img{
+	display: block;
+	height: 25%;
+	width: 100%;
+	object-fit: cover;
+}
+
+div#home-container div.article-box div.article-box-info{
+	width: 70%;
+	margin: 3%;
+}
+
+div#home-container div.article-box div.article-box-info h1.article-box-header{
+	display: block;
+	font-size: 1em;
+}
+
+div#home-container div.article-box div.article-box-info span.article-box-cred{	
+	display: block;
+	font-size: 0.75em;
+	font-style: italic;
+}
+
+
+div#home-container div.article-list div.article-item{
+	background: var(--article-item-background);
+	padding: 3%;
+	border-bottom: var(--border-2);
+	cursor: pointer;
+}
+
+div#home-container div.article-list div.article-item:hover{
+	background: var(--article-item-hover);
+}
+
+div#home-container div.article-list div.article-item:active{
+	background: var(--article-item-active);
+}
+
+div#home-container div.article-list div.article-item h1.article-item-header{
+	font-size: 1em;
+}
+
+div#home-container div.article-list div.article-item p.article-item-cred{
+	font-size: 0.75em;
+	margin: 3% 0;
+}
+
+
+
+@media screen and (min-width: 640px){
+	
+	div#home-container div#featured-article{
+		padding: 1%;
+	}
+	
+	div#home-container h1#featured-article-header{
+		font-size: 3em;
+	}
+	
+	div#home-container div#featured-article span#featured-article-cred{
+		font-size: 1em;
+	}
+	
+	div#home-container span.label.featured{
+		margin: 0.5%;
+		padding: 0.5%;
+	}
+	
+	div#home-container div.article-box{
+		width: 33.333333333333333333%;
+		height: 25%;
+		float: left;
+	}
+	
+	div#home-container div.article-box div.article-box-info h1.article-box-header{
+		font-size: 1.25em;
+	}
+	div#home-container div.article-box div.article-box-info span.article-box-cred{
+		font-size: 1em;
+	}
+	
+	div#home-container div.article-list{
+		width: 47%;
+		margin: 1%;
+		float: left;
+	}
+	
+	div#home-container div.article-list#balita-list{
+		border-left: 1px solid var(--balita-label);
+		border-right: 1px solid var(--balita-label);
+	}
+	
+	div#home-container div.article-list#opinyon-list{
+		border-left: 1px solid var(--opinyon-label);
+		border-right: 1px solid var(--opinyon-label);
+	}
+	
+	div#home-container div.article-list#lathalain-list{
+		border-left: 1px solid var(--lathalain-label);
+		border-right: 1px solid var(--lathalain-label);
+	}
+	
+	div#home-container div.article-list#isports-list{
+		border-left: 1px solid var(--isports-label);
+		border-right: 1px solid var(--isports-label);
+	}
+	
+
+	
+	div#home-container div.article-list div.article-item{
+		padding: 1%;
+	}
+	
+	div#home-container div.article-list div.article-item p.article-item-cred{
+		margin: 0.5% 0;
+	}
+
+
+}
