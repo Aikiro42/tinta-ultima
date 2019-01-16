@@ -64,6 +64,7 @@ header#site_header{
 	z-index: 10;
 	text-align: center;
 	background: white;
+	box-shadow: 0 0 20px 5px black;
 }
 
 header#site_header *{

@@ -14,6 +14,7 @@ img#article-image{
 div#article-container{
 	position: absolute;
 	top: 50%;
+	box-shadow: 10px 10px 10px 10px black;
 }
 
 div#article-container h1#article-header{
