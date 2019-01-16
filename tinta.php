@@ -1,5 +1,7 @@
 <div id="tinta-container">
 
+	<img id="tinta-banner" />
+
 	<h1>Ang tinta ay ang opisyal na pamahayagan ng Nueva Vizcaya na may adhikaing maghandog serbisyo sa bayan na walang kinikilingan at magbigay hubad na katotohanan. </h1>
 	
 	<h2>Mga Maykatha</h2>

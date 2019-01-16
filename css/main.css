@@ -64,7 +64,7 @@ header#site_header{
 	z-index: 10;
 	text-align: center;
 	background: white;
-	box-shadow: 0 0 20px 5px black;
+	box-shadow: 0 0 10px 1px black;
 }
 
 header#site_header *{
@@ -255,6 +255,10 @@ footer div#social_link_list a#t{
 }
 
 @media screen and (min-width: 640px){
+	
+	header#site_header{
+		box-shadow: 0 0 20px 5px black;
+	}
 	
 	header#site_header a#title_home_link{
 		padding-bottom: 1%;
