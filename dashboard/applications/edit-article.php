@@ -18,7 +18,7 @@
 	$article_lead = $row['article_lead'];
 	
 	$query = "SELECT * FROM Images WHERE article_id = " . $article_id;
-	$result = mysqli_query($dbc, $query) or die('sad: edit-article.php line 20');
+	$result = mysqli_query($dbc, $query) or die('[ERROR]:Cannot open article. Article ID not found.');
 	$row = mysqli_fetch_array($result);
 
 	$image_id = "";

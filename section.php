@@ -58,7 +58,7 @@
 	<div id="article-item-list">
 		
 		<?php
-			$query = 'SELECT * FROM Articles WHERE article_type_id = '.$article_type_id.' ORDER BY article_id DESC OFFSET 2';
+			$query = 'SELECT * FROM Articles WHERE article_type_id = '.$article_type_id.' ORDER BY article_id DESC';
 			$result = mysqli_query($dbc, $query);
 			while($row = mysqli_fetch_array($result)){
 				

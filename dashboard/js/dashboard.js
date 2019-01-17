@@ -22,7 +22,6 @@ $(function(){
 			url: 'tools/articles.php',
 			success: function(data){
 						target.html(data);
-						
 						if(target.css('display') == 'none'){
 							target.slideDown(100);
 						}else{

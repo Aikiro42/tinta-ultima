@@ -99,6 +99,8 @@ div#section-container div.article-item div.article-item-info{
 
 div#section-container div.article-item img.article-item-image{
 	width: 100%;
+	object-fit: cover;
+	object-position: center center;
 }
 
 div#section-container div.article-item div.article-item-info span.article-item-cred{
@@ -134,13 +136,18 @@ div#section-container div.article-item div.article-item-info span.article-item-c
 		width: 75%;
 	}
 	
+	div#section-container div.article-item{
+		margin: 1% auto;
+	}
+	
 	div#section-container div.article-item img.article-item-image{
-		width: 50%;
+		width: 40%;
+		height: 15%;
 		float: left;
 	}
 	
 	div#section-container div.article-item div.article-item-info{
-		width: 48%;
+		width: 58%;
 		padding: 1%;
 		float: right;
 	}

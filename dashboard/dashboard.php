@@ -1,3 +1,4 @@
+<!--TODO: Add duplicate article function-->
 <html>
 	<head>
 		<title>Ultima Dashboard</title>
@@ -14,6 +15,9 @@
 	<body>
 	<div id="php-log">
 	</div>
+	
+		<p id="debug-prompt" class="debug green">Debug Prompt</p>
+		
 		<header>
 			<h1>Ultima</h1>
 			<p class="header-subtitle">Your custom news website dashboard</p>

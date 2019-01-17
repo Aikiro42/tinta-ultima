@@ -6,6 +6,8 @@ $(function(){
 			url: 'applications/add-article.php',
 			success: function(data){
 				$('div#php-log').html(data);
+				$('p#debug-prompt').removeClass('red').addClass('green').html(data);
+				
 				var target = $('div#articles-tool').find('div.utility-container');
 				$.ajax({
 					method: 'post',

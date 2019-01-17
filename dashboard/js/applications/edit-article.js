@@ -43,6 +43,8 @@ $(function(){
 								data: {article_id: article_id_val},
 								url: 'applications/get_image.php',
 								success: function(data){
+									//remove image element
+									//create image element with new source
 									$(this).parent().parent().parent().find('img.article_image').attr('src',''+data);
 									console.log(data);
 								}
@@ -81,14 +83,15 @@ $(function(){
 			url: 'applications/save-article.php',
 			success:	function(data){
 				
-							$('div#php-log').html(data);
-				
+							$('p#debug-prompt').removeClass('red').addClass('green').html(data);
+							
 							if(element_parent.css('display') != 'none'){
 								element_parent.slideUp(100);
 							}
 							
 							
 							var target = $('div#articles-tool').find('div.utility-container');
+							
 							
 							$.ajax({
 								method: 'post',

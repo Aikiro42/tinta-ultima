@@ -13,7 +13,6 @@
 	
 	ChromePhp::log('success: broadcasting from upload-picture.php');
 	
-	
 	$test_query = 'SELECT * FROM Images WHERE article_id = ' . $article_id;
 	$test_result = mysqli_query($dbc, $test_query);
 	
@@ -21,12 +20,12 @@
 
 	$query = 'UPDATE Images SET image_dir = \''.$file_path.'\' WHERE article_id = ' . $article_id;
 	ChromePhp::log($query);
-	$result = mysqli_query($dbc, $query) or die('sad');
+	$result = mysqli_query($dbc, $query) or die('[ERROR]:Cannot edit image entry.');
 	
 	}else{
 		$query = 'INSERT INTO Images VALUES ('.$image_id.', '.$article_id.', \''.$file_path.'\')';
 		ChromePhp::log($query);
-		$result = mysqli_query($dbc, $query) or die('sad');
+		$result = mysqli_query($dbc, $query) or die('[ERROR]:Cannot make new image entry.');
 	}
 	
 	ChromePhp::log('success: broadcasting from upload-picture.php');
