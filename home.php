@@ -104,7 +104,7 @@
 			
 			<?php
 			
-				//featured feature {
+				//featured features {
 				
 				$query = 'SELECT * FROM Articles WHERE article_type_id = 3 LIMIT 1';
 				$result = mysqli_query($dbc, $query);

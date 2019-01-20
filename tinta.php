@@ -1,6 +1,6 @@
 <div id="tinta-container">
 
-	<img id="tinta-banner" />
+	<img id="tinta-banner" src="img/tinta-banner.jpg"/>
 
 	<h1>Ang tinta ay ang opisyal na pamahayagan ng Nueva Vizcaya na may adhikaing maghandog serbisyo sa bayan na walang kinikilingan at magbigay hubad na katotohanan. </h1>
 	
@@ -14,4 +14,9 @@
 	
 	<a id="dashboard-link" href="dashboard/dashboard.php">Click here to go to dashboard</a>
 	
+	<div class="footer-container">
+	</div>
+	
 </div>
+
+<script src="js/footer.js"></script>

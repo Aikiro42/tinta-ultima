@@ -1,10 +1,13 @@
 $(function(){
+	var display_footer = true;
 	
-	$.ajax({
-		url: 'footer.php',
-		success: function(data){
-			$('div.footer-container').html(data);
-		}
-	});
+	if(display_footer){
+		$.ajax({
+			url: 'footer.php',
+			success: function(data){
+				$('div.footer-container').html(data);
+			}
+		});
+	}
 	
 });

@@ -89,7 +89,7 @@
 						<span class="article-item-cred">'.$date.' | '.$author.'</span>
 					</div>
 					<div class="clear"></div>
-					<input type="hidden" value="<?php echo $article_id?>" />
+					<input type="hidden" value="'.$article_id.'" />
 				</div>
 				
 				
