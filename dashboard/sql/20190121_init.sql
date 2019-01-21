@@ -24,9 +24,6 @@ CREATE TABLE Articles(
 	article_lead VARCHAR(1024) NULL,
 	content TEXT NOT NULL,
 	priority INT NOT NULL,
-	
-	date_published DATE NOT NULL,
-	date_edited DATE NOT NULL,
 	FOREIGN KEY (author_id) REFERENCES Authors(author_id),
 	FOREIGN KEY (article_type_id) REFERENCES ArticleTypes(article_type_id)
 );

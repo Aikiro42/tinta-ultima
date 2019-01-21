@@ -32,7 +32,7 @@
 			
 			echo '
 			
-			<div class="article-item article-sample">
+			<div class="article-item">
 				<h1 class="article-title">'.$article_header.' - <em>'.$article_type.'</em></h1>
 				<img src="img/delete-icon.png" class="delete-article-button util-button">
 				<img src="img/edit-icon.png" class="edit-article-button util-button">

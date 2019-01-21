@@ -121,7 +121,6 @@
 
 <div id="save-article-button">Save Changes</div>
 
-
 <script src="js/applications/edit-article.js"></script>
 
 
